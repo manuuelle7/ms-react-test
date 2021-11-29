@@ -11,3 +11,93 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.margin {
+  margin: 1rem;
+  place-items: baseline;
+}
+.appear {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+  animation: ease;
+}
+.appear {
+  animation: fadeIn 1s;
+  -webkit-animation: fadeIn 1s;
+  -moz-animation: fadeIn 1s;
+  -o-animation: fadeIn 1s;
+  -ms-animation: fadeIn 1s;
+}
+
+.disappear {
+  visibility: hidden !important;
+}
+
+.error-indicator {
+  background-color: rgb(214, 57, 29);
+  color: white;
+}
+
+.container-json {
+  /* border-color: darkseagreen !important; */
+  /* border-width: 3px!important; */
+  display: inline-flex !important;
+  overflow: auto;
+}
+
+.container-output {
+  margin-bottom: 2vh !important;
+}
+.card-body {
+  padding: 1px !important;
+}
+.card-body-smallest {
+  border: solid 2px darkseagreen !important;
+}
+
+.jsonCorrect {
+  border-color: darkseagreen !important;
+  border-width: 3px!important;
+}
+
+
+.jsonError {
+  border-color: rgb(214, 57, 29) !important;
+  border-width: 3px!important;
+}
+
+.input-text {
+  overflow: auto;
+}
+
+.label-upload {
+  background-color: rgb(104, 110, 116);
+  color: white;
+  padding: 0.5rem;
+  font-family: sans-serif;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+
+.btn-upload {
+  background-color: rgb(41, 117, 189);
+  color: white;
+  padding: 0.5rem;
+  font-family: sans-serif;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.btn-clean {
+  background-color: rgb(214, 57, 29);
+  color: white;
+  padding: 0.5rem;
+  font-family: sans-serif;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
