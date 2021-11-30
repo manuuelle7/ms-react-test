@@ -147,7 +147,7 @@ Additionally, the app search the _smallest deepest node from binary tree_ whith 
 
 
 
-# IUX Desing
+# UIX Desing
 
 - **Initial APP.** In this case, the _upload button_ and _clear button_ are disabled. just is enabled the choose _file button_
 
